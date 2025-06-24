@@ -1,0 +1,23 @@
+# 言語統計の設定
+*.py linguist-language=Python
+*.md linguist-documentation
+
+# 改行コードの統一 (CRLF -> LF)
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# バイナリファイル
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+
+# 差分表示の改善
+*.py diff=python

@@ -1,0 +1,19 @@
+# アセットファイルを含める
+recursive-include assets *.png *.ico
+
+# ドキュメントを含める
+include README.md
+include CHANGELOG.md
+include LICENSE
+include requirements.txt
+include settings.json.example
+
+# 不要なファイルを除外
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude *.swp
+global-exclude .DS_Store
+global-exclude *.Zone.Identifier
+recursive-exclude logs *
+recursive-exclude build *
+recursive-exclude dist *

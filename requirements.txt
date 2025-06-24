@@ -1,0 +1,10 @@
+# Core dependencies
+Pillow>=10.0.0
+ttkbootstrap>=1.10.1
+mss>=9.0.1
+screeninfo>=0.8.1
+pystray>=0.19.4
+keyboard>=0.13.5
+
+# Windows specific
+pywin32>=306
